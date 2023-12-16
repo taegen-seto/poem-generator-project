@@ -1,1 +1,66 @@
-
+body {
+  background-color: #1b1b1b;
+  font-family: "Poppins", sans-serif;
+  color: #474232;
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/107/416/original/cherryblossom.jpeg?1702705695);
+  background-repeat: space;
+  background-size: cover;
+}
+a {
+  color: #474232;
+}
+h1 {
+  text-align: center;
+  font-family: "Ruthie", cursive;
+  font-size: 88px;
+  margin: 0;
+  padding: 15px 0;
+  color: #474232;
+}
+form {
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  margin-bottom: 30px;
+}
+footer {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 30px;
+}
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+  background-color: #eacfde;
+  opacity: 0.9;
+  border-radius: 20px;
+  padding: 20px;
+}
+.instructions {
+  padding: 16px;
+  border: none;
+  width: 80%;
+  font-size: 16px;
+  border-radius: 50px;
+  background-color: #eacfde;
+  color: #474232;
+}
+.submit-button {
+  margin-left: 10px;
+  background-color: #474232;
+  color: #e1c5d0;
+  border: none;
+  border-radius: 50px;
+  padding: 14px 24px;
+  width: 150px;
+  font-size: 16px;
+}
+.poem {
+  font-size: 16px;
+  background-color: white;
+  padding: 20px;
+  line-height: 1.5;
+  border-left: 3px solid #474232;
+  color: #474232;
+}
