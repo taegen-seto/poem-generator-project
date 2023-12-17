@@ -46,6 +46,9 @@ footer {
   background-color: #eacfde;
   color: #474232;
 }
+::placeholder {
+  color: #474232;
+}
 .submit-button {
   margin-left: 10px;
   background-color: #474232;
