@@ -6,7 +6,6 @@ function displayPoem(response) {
     cursor: "",
   });
 }
-
 function generatePoem(event) {
   event.preventDefault();
 
@@ -20,10 +19,6 @@ function generatePoem(event) {
   let poemElement = document.querySelector("#poem");
   poemElement.classList.remove("hidden");
   poemElement.innerHTML = `<div class="generating">⏳ Generating a short poem about <em>${instructionsInput.value}</em></div>`;
-
-  console.log("Generating poem");
-  console.log(`Prompt: ${prompt}`);
-  console.log(`Context: ${context}`);
 
   axios.get(apiUrl).then(displayPoem);
 }
