@@ -1,13 +1,14 @@
 body {
-  background-color: #1b1b1b;
+  background-color: black;
   font-family: "Poppins", sans-serif;
-  color: #474232;
-  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/107/416/original/cherryblossom.jpeg?1702705695);
-  background-repeat: space;
+  color: #245a01;
+  background-image: url(./images/sunflowers.jpg);
+  background-repeat: no-repeat;
   background-size: cover;
 }
 a {
-  color: #474232;
+  color: #245a01;
+  text-decoration: none;
 }
 h1 {
   text-align: center;
@@ -15,11 +16,11 @@ h1 {
   font-size: 88px;
   margin: 0;
   padding: 15px 0;
-  color: #474232;
+  color: #245a01;
 }
 form {
   padding: 30px;
-  background-color: white;
+  background-color: rgba(225, 225, 225, 0.6);
   border-radius: 10px;
   display: flex;
   margin-bottom: 30px;
@@ -32,8 +33,7 @@ footer {
 .container {
   margin: 120px auto;
   max-width: 600px;
-  background-color: #eacfde;
-  opacity: 0.9;
+  background-color: rgba(225, 225, 225, 0.6);
   border-radius: 20px;
   padding: 20px;
 }
@@ -42,30 +42,37 @@ footer {
   border: none;
   width: 80%;
   font-size: 16px;
-  border-radius: 50px;
-  background-color: #eacfde;
-  color: #474232;
+  border-radius: 7px;
+  background-color: rgba(36, 90, 1, 0.2);
+  color: #245a01;
+  /* margin: 30px 0; */
 }
 ::placeholder {
-  color: #474232;
+  color: #245a01;
 }
 .submit-button {
   margin-left: 10px;
-  background-color: #474232;
-  color: #e1c5d0;
+  background-color: rgba(36, 90, 1, 0.6);
+  color: white;
   border: none;
   border-radius: 50px;
   padding: 14px 24px;
   width: 150px;
   font-size: 16px;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+.submit-button:hover {
+  background-color: rgba(36, 90, 1, 0.2);
+  color: rgba(36, 90, 1, 0.6);
 }
 .poem {
   font-size: 16px;
-  background-color: white;
+  background-color: rgba(225, 225, 225, 0.6);
   padding: 20px;
   line-height: 1.5;
-  border-left: 3px solid #474232;
-  color: #474232;
+  border-left: 3px solid #245a01;
+  color: #245a01;
   border-radius: 3px;
 }
 .hidden {
@@ -82,5 +89,19 @@ footer {
 @-webkit-keyframes blink-animation {
   to {
     visibility: hidden;
+  }
+}
+@media (max-width: 900px) {
+  h1 {
+    font-size: 50px;
+  }
+  .instructions {
+    font-size: 14px;
+  }
+  .submit-button {
+    font-size: 14px;
+  }
+  footer {
+    font-size: 8px;
   }
 }
