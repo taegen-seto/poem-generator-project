@@ -31,6 +31,7 @@ footer {
   font-size: 13px;
   margin-top: 30px;
   padding: 50px 0 5px 0;
+  letter-spacing: 2px;
 }
 .container {
   margin: 120px auto;
@@ -103,6 +104,7 @@ footer {
   }
   footer {
     font-size: 8px;
+    letter-spacing: 0;
   }
   .instructions {
     font-size: 14px;
